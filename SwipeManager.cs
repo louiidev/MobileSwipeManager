@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public enum SwipeDirection {
@@ -11,18 +11,12 @@ public enum SwipeDirection {
 
 public class SwipeManager : MonoBehaviour {
 
-	private static SwipeManager instance;
-	public static SwipeManager Instance {get { return instance; }}
-
 	private Vector3 touchPosition;
 	private float swipeResistanceX = 50;
 	private float swipeResistanceY = 100;
 
 	public SwipeDirection Direction { get; set; }
 
-	void Start() {
-		instance = this;
-	}
 
 	void Update() {
 
