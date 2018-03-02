@@ -2,7 +2,7 @@
 A Unity3d script to manage mobile swiping
 
 
-## To Use
+## Usage
 ```     
         GameObject gameObjectWithScript;
         SwipeManager swipeManager;
